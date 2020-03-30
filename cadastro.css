@@ -1,0 +1,111 @@
+body{
+
+    font: normal 15pt Arial;
+    background-color: #dfe4ea;
+
+}
+
+#cadastro{
+
+    width: 600px;
+    height: 600px;
+    max-height: 600px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+
+}
+
+h1{
+    text-align: start;
+    background-color: black;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    color: white;
+    display: flex;  
+    justify-content: space-between;
+    
+}
+
+.title{
+    padding: 10px 0px 5px 15px;
+}
+
+.exit{
+
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    padding: 10px 10px 10px 10px;
+    border: solid 0px black;
+    border-top-right-radius: 10px;
+
+}
+.exit:hover{
+    transition: all 0.3s;
+    background: rgba(250, 34, 34, 0.87);
+}
+
+p{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+input:not([type= "submit"]){
+
+    border: solid 0px white;
+    border-color: rgb(131, 129, 129);
+    background-color: rgb(224, 221, 221);
+    border-radius: 7px;
+    font-size: 15pt;
+    margin-bottom: 10px;
+
+}
+
+
+
+.submit{
+
+    width: 40%!important;
+    cursor: pointer;  
+    background: rgb(110, 110, 110);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 0px solid #fff; 
+    margin-top: 10px;  
+    margin-bottom: 10px;  
+    text-shadow: 0 2px 2px #333;
+    border-radius: 10px;
+    /* Animação ao recarregar
+    transition: all 0.2s linear;*/
+}
+
+.submit:hover{
+
+    transition: all 0.3s;
+    background: #333;
+ }
+
+::-webkit-input-placeholder {
+
+    color: #929191; 
+    font-style: italic;
+    text-align: initial;
+}
+
+.flex-colu{
+
+    white-space: pre-wrap;
+    flex-wrap: wrap;
+    display: flex;
+    /*align-content: space-between;*/
+    justify-content: space-between;
+    
+
+}
+

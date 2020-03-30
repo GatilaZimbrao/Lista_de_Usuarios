@@ -1,0 +1,97 @@
+
+body{
+    font: normal 15px Arial;
+    margin: 0px;
+}
+
+header{
+    /*Adicionar Icone*/
+    background-image: url("logoZ.jpg");
+    background-position: 20px 10px;
+    background-repeat: no-repeat;
+
+    background-color: #706b69;
+    color: white;
+    height: 70px;
+}
+
+.container{
+    width: 100%;
+    max-height: 638px;
+    background-color: rgb(224, 224, 224);
+    overflow: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+tfoot{
+    background-color: whitesmoke;
+    
+}
+  
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+#BuscaNome{
+    background-image: url("searchicon.jpg");
+    background-position: 5px px;
+    background-repeat: no-repeat;
+    width: 25%;
+    font-size: 15px;
+    padding: 12px 5px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.add{
+
+    /*Adicionar Icone*/
+    background-image: url("addUser.jpg");
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+
+    border: 1px solid #333;
+    cursor: pointer;  
+    border-radius: 7px;
+    padding: 12px 12px 12px 40px;
+    margin-left: 850px;
+    color: #333;
+    text-shadow: 0 2px 2px #fff;
+    font-size: 18px;
+}
+
+.add:hover{
+    transition: all 0.3s;
+    text-shadow: 0 2px 2px rgb(218, 216, 216);
+    border-radius: 10px;
+    /*background-color: rgb(236, 236, 236);*/
+    
+}
+
+input[type="submit"]{
+
+    background-image: url("trash.jpg");
+    background-position: 3px 1px;
+    background-repeat: no-repeat;
+    width: 18%;
+    font-size: 15px;
+    padding: 5px 3px 15px 3px;
+    border: 1px solid #333;
+    border-radius: 7px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+input[type="submit"]:hover{
+
+    border-radius: 10px;
+}

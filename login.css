@@ -1,0 +1,64 @@
+body{
+
+    font: normal 15pt Arial;
+    background-color: #dfe4ea;
+    text-align: center;
+}
+#login{
+
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 7px;
+
+}
+/* Input Login e Senha */
+
+input:not([type="submit"]){
+
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: rgb(131, 129, 129);
+    background-color: whitesmoke;
+    font-size: 15pt;
+    margin-bottom: 10px;
+
+}
+/* Botão Login  */
+
+input[type="submit"]{
+
+    width: 40%!important;
+    cursor: pointer;  
+    background: rgb(110, 110, 110);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 0px solid #fff; 
+    margin-top: 10px;  
+    margin-bottom: 10px;  
+    text-shadow: 0 2px 2px #333;
+    border-radius: 10px;
+    /* Animação ao recarregar
+    transition: all 0.2s linear;*/
+}
+input[type="submit"]:hover{
+
+    transition: all 0.3s;
+    background: #333;
+ }
+/* placeholder */
+
+::-webkit-input-placeholder {
+
+    color: #929191; 
+    font-style: italic;
+}
+
+
+
+
+

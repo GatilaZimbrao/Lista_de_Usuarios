@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <div id="cadastro" >
+
+        <h1>
+                
+            <span class="title">CADASTRO</span>
+            <a href="/Home/home.html"><input class="exit" type="submit" value="X"></a>
+                     
+        </h1>
+        <div>
+            
+            <p>
+                <label class="flex-colu" for="cad_n1"> Nome: </label>
+                <input class="flex-colu" type="text" name="cad_n1" id="cad_n1" placeholder="Nome" size="15px" required="required"> 
+                <input class="flex-colu" type="text" name="cad_n2" id="cad_n2" placeholder="Sobrenome" size="15px" required="required">
+            </p>
+    
+            <p>
+                <label class="flex-colu" for="cad_e">Email:</label>
+                <input class="flex-colu" type="email" name="cad_e" id="cad_e" placeholder="exemplo@email.com" size="30px" required="required">
+            </p>
+
+           <p>
+                <label class="flex-colu" for="cad_f">Função:</label>
+                <input class="flex-colu" type="text" name="cad_f" id="cad_f" placeholder="Analista" size="30px" required="required">
+            </p>
+    
+            <p>
+                <label class="flex-colu" for="cad_c">Celular:</label>
+                <input class="flex-colu" type="number" name="cad_c" id="cad_c" placeholder="22988887777" size="30px" required="required">
+            </p>
+
+        </div>
+
+        <p>
+            <input class="submit" type="submit" value="Cadastrar" onclick="cadastrar()">
+        </p>
+
+        <script src="cadastro.js"></script>
+
+            
+    </div>
+
+</body>
+</html>
